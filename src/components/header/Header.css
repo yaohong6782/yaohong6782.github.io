@@ -1,0 +1,51 @@
+.body {
+  padding: 50px;
+}
+/* header {
+
+} */
+
+.wrapper {
+  height: 100vh;
+  padding-top: 7rem;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titles-wrapper {
+  font-size: 20px;
+  margin-right: 60px;
+  margin-bottom: 50px;
+}
+
+.image-contact-wrapper {
+  margin-left: 150px;
+}
+.own-photo {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.aspiration {
+  padding-left: 30px;
+}
+
+.my-name {
+  font-size: 28px;
+  color: lightblue;
+}
+
+@media only screen and (max-width: 720px) {
+  .wrapper {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .own-photo {
+    height: 150px;
+    width: 150px;
+  }
+}
