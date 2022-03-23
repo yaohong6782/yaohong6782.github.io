@@ -6,8 +6,8 @@
 } */
 
 .wrapper {
-  height: 100vh;
-  padding-top: 7rem;
+  height: 90vh;
+  padding-top: 12rem;
   overflow: hidden;
   display: flex;
   justify-content: center;
