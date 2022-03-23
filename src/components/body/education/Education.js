@@ -1,9 +1,14 @@
-import React from 'react'
+import React from "react";
+
+
+import "./Education.css";
 
 const Education = () => {
   return (
-    <section id="education">Education</section>
-  )
-}
+    <section id="education">
+      <h2>Education</h2>
+    </section>
+  );
+};
 
-export default Education
+export default Education;

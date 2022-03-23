@@ -10,28 +10,27 @@ const About = () => {
       <h2>More About Me</h2>
 
       <div className="container about__container">
-
         <div className="about__content">
           <div className="about__cards">
             <article className="about__card">
               <GiStairsGoal className="about__icon" />
-              <h2>Goals</h2>
-              <medium>On a Job hunt for Entry Level Position</medium>
+              <h2>Current Goals</h2>
+              <small>Work my way into the Tech Industry</small>
             </article>
 
             <article className="about__card">
               <IoGameControllerOutline className="about__icon" />
               <h2>Hobbies</h2>
-              <medium>Video Games and Algorithms</medium>
+              <small>Video Games and Reading Algorithms</small>
             </article>
 
             <article className="about__card">
               <GiVacuumCleaner className="about__icon" />
               <h2>Miscellaneous</h2>
-              <medium>I like to analyse and clean up codes</medium>
+              <small>I like to analyse and clean up codes</small>
             </article>
           </div>
-          <p>ASDF</p>
+          <p>I'm an Introvert</p>
         </div>
       </div>
     </section>

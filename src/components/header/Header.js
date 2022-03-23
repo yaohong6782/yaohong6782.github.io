@@ -1,6 +1,7 @@
 import React from "react";
 import "./Header.css";
 import me from "../../images/me.jpg";
+import mytestimage from "../../images/me-test.png"
 import Contact from "../body/Contact/Contact";
 const Header = () => {
   return (
