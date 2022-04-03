@@ -127,11 +127,13 @@ const Techonology = () => {
           </div>
         </div>
       </div>
-      <h5>
+      <div>
+      <h5 className="icon__credits">
         <a target="blank" href="https://icons8.com" className="icons__credit">
           Icons taken from Icons8
         </a>
       </h5>
+      </div>
     </section>
   );
 };

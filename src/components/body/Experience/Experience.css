@@ -1,8 +1,10 @@
+
 .work__container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     width: 55%;
     gap:2.5rem;
+    padding-bottom:18rem;
 }
 
 .work__item{
@@ -18,3 +20,17 @@
     align-items:center;
     gap:5px;
 }
+
+@media only screen and (max-width: 1024px) {
+    .work__container {
+        grid-template-columns:2fr;
+      }
+    
+      .work__container > div {
+        width: 80%;
+        padding: 2rem;
+        margin: 0 auto;
+      }
+
+}
+

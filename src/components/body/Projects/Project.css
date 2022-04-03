@@ -1,8 +1,13 @@
+.section__projects{
+    padding-top:18rem;
+    padding-bottom: 18rem;
+}
 .project__container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   width: 55%;
   gap: 2.5rem;
+
 }
 
 .project__item {
@@ -32,7 +37,25 @@
 }
 
 @media only screen and (max-width: 1024px) {
+    .project__container {
+        grid-template-columns:2fr;
+      }
+    
+      .project__container > div {
+        width: 80%;
+        padding: 2rem;
+        margin: 0 auto;
+      }
+
 }
 
 @media only screen and (max-width: 600px) {
+    .project__content{
+        gap:1rem;
+    }
+    
+    .experience__content > div {
+        width:100%;
+        padding:2rem 1rem;
+    }
 }

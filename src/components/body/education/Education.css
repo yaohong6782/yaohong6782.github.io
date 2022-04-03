@@ -1,6 +1,3 @@
-section {
-  height: 50vh;
-}
 
 .education__container {
   display: flex;
@@ -8,6 +5,7 @@ section {
   align-items: center;
   justify-content: center;
   gap: 2rem;
+  padding-bottom:18rem;
 }
 
 .edu__wrapper {
