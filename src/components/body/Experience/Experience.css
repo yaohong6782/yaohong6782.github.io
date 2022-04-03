@@ -1,0 +1,20 @@
+.work__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 55%;
+    gap:2.5rem;
+}
+
+.work__item{
+    background: black;
+    padding: 1.3rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+
+.work__title{
+    display:flex;
+    align-items:center;
+    gap:5px;
+}

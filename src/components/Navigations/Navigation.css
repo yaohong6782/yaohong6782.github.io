@@ -5,10 +5,10 @@ nav {
     padding:0.7rem 1rem;
     z-index: 2;
     position:fixed;
-    left:50%;
+    left:90%;
     transform:translate(-50%);
     bottom: 5px;
-    display:flex;
+    /* display:flex; */
     gap:0.5rem;
     border-radius:5rem;
 }

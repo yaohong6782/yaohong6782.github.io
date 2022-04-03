@@ -3,6 +3,7 @@ import "./Navigation.css";
 import { AiOutlineHome } from "react-icons/ai";
 import { FaTasks, FaUserAlt, FaUserGraduate, FaBook } from "react-icons/fa";
 import { BsBriefcaseFill } from "react-icons/bs";
+import {GiMiner} from "react-icons/gi"
 
 const Navigation = () => {
   const [currentNav, setCurrentNav] = useState("#home");
@@ -54,6 +55,13 @@ const Navigation = () => {
         <FaUserGraduate />
       </a>
       <a
+        href="#tech"
+        onClick={() => hightLightActiveNav("#tech")}
+        className={currentNav === "#tech" ? "active" : ""}
+      >
+        <GiMiner />
+      </a>
+      <a
         href="#projects"
         onClick={() => hightLightActiveNav("#projects")}
         className={currentNav === "#projects" ? "active" : ""}
@@ -67,13 +75,7 @@ const Navigation = () => {
       >
         <BsBriefcaseFill />
       </a>
-      <a
-        href="#tech"
-        onClick={() => hightLightActiveNav("#tech")}
-        className={currentNav === "#tech" ? "active" : ""}
-      >
-        <FaBook />
-      </a>
+      
     </nav>
   );
 };

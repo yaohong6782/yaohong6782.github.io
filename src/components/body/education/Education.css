@@ -1,3 +1,28 @@
 section {
-    height:70vh;
+  height: 50vh;
+}
+
+.education__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.edu__wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+.edu__course-year {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 15rem;
+}
+
+.edu-school {
+  font-weight: 800;
 }

@@ -7,7 +7,7 @@ import "./About.css";
 const About = () => {
   return (
     <section id="about">
-      <h2>More About Me</h2>
+      <h2>About Me</h2>
 
       <div className="container about__container">
         <div className="about__content">
@@ -15,13 +15,13 @@ const About = () => {
             <article className="about__card">
               <GiStairsGoal className="about__icon" />
               <h2>Current Goals</h2>
-              <small>Work my way into the Tech Industry</small>
+              <small>Being in the Tech Industry</small>
             </article>
 
             <article className="about__card">
               <IoGameControllerOutline className="about__icon" />
               <h2>Hobbies</h2>
-              <small>Video Games and Reading Algorithms</small>
+              <small>Video Games</small>
             </article>
 
             <article className="about__card">

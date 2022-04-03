@@ -1,0 +1,38 @@
+.project__container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 55%;
+  gap: 2.5rem;
+}
+
+.project__item {
+  background: black;
+  padding: 1.3rem;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+  transition: var(--transition);
+}
+
+.project__item:hover {
+  background-color: grey;
+}
+
+.title__image {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 2rem;
+}
+
+.tags{
+    display: inline-block;
+    color:grey;
+    margin-right:5px;
+
+}
+
+@media only screen and (max-width: 1024px) {
+}
+
+@media only screen and (max-width: 600px) {
+}
