@@ -43,8 +43,12 @@ const Projects = () => {
               </div>
               <small>{item.objective}</small>
               <div className="project__tags">
-                {item.tags.map((tags,idx) => {
-                  return <div className="tags" key={idx}>{tags}</div>;
+                {item.tags.map((tags, idx) => {
+                  return (
+                    <div className="tags" key={idx}>
+                      {tags}
+                    </div>
+                  );
                 })}
               </div>
               <div className="github__link">
@@ -54,7 +58,7 @@ const Projects = () => {
                     className="link__directory"
                     href={item.github}
                   >
-                    <div className="link__button">GitHub</div>
+                    GitHub
                   </a>
                 )}
               </div>
