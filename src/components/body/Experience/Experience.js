@@ -9,7 +9,7 @@ const Experience = () => {
       exp: "Onwards Media Group Pte Ltd",
       objective:
         "Gain exposure to the industry and integrate a developing system which the company has developed",
-      department: "Freeboh",
+      department: "Freeboh (Shift-Based Job Finding Platoform)",
       role: "Intern",
     },
     {
