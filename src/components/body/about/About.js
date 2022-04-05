@@ -21,7 +21,7 @@ const About = () => {
             <article className="about__card">
               <IoGameControllerOutline className="about__icon" />
               <h2>Hobbies</h2>
-              <small>Video Games</small>
+              <small>Sitting and Watching Video Programs</small>
             </article>
 
             <article className="about__card">
