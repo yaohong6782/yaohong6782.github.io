@@ -19,7 +19,7 @@
 }
 
 .project__item:hover {
-  background-color: grey;
+  background-color: rgb(58, 55, 55);
 }
 
 .title__image {
