@@ -15,7 +15,7 @@ const About = () => {
             <article className="about__card">
               <GiStairsGoal className="about__icon" />
               <h2>Current Goals</h2>
-              <small>Being in the Tech Industry</small>
+              <small>Tech Industry</small>
             </article>
 
             <article className="about__card">
@@ -28,6 +28,8 @@ const About = () => {
               <GiVacuumCleaner className="about__icon" />
               <h2>Miscellaneous</h2>
               <small>I like to analyse and clean up codes</small>
+              <br/>
+              <small>Practicing Data Structure and Algorithms</small>
             </article>
           </div>
           <p>I'm an Introvert</p>

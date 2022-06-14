@@ -20,6 +20,14 @@ const Experience = () => {
       department: "IOT Student Project with CAG",
       role: "Student Developer",
     },
+    {
+        id: 3,
+        exp: "NCS Group",
+        objective:
+          "06 / 2022 - Present",
+        department: "N/A",
+        role: "Software Engineer",
+      }
   ];
   return (
     <section id="experience" className="section__experience">
@@ -35,10 +43,12 @@ const Experience = () => {
               </div>
               <small>{item.objective}</small>
               <div className="work__department">
-                <small>Department : {item.department}</small>
+
+                <small> <span className="header__content">Department :</span> <span className="role__content">{item.department}</span></small>
               </div>
               <div className="work__role">
-                <small>Role : {item.role}</small>
+                {/* <small><span className="department__header">Role</span> : {item.role}</small> */}
+                <small> <span className="header__content">Role :</span> <span className="role__content">{item.role}</span></small>
               </div>
             </article>
           );

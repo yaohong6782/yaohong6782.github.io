@@ -88,10 +88,6 @@ const Techonology = () => {
         />
       ),
     },
-    {
-      id: 3,
-      type: "TBA...",
-    },
   ];
   return (
     <section id="tech">

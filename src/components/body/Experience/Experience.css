@@ -21,6 +21,19 @@
     gap:5px;
 }
 
+
+
+.header__content{
+    font-size:16px;
+
+    font-weight: 600;
+}
+.role__content {
+    font-size:14px;
+    color:grey;
+    font-weight: 600;
+    margin:2px;
+}
 @media only screen and (max-width: 1024px) {
     .work__container {
         grid-template-columns:2fr;
