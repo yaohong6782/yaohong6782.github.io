@@ -12,7 +12,7 @@ const Education = () => {
     {
       id: 1,
       school: "University of Wollonggong",
-      where: "",
+      where: "Singapore Insitute of Management",
       course: "Computer Science - Cybersecurity",
       duration: "2020 - 2022",
     },
@@ -29,40 +29,34 @@ const Education = () => {
     <section id="education">
       <h2>Education</h2>
 
-      <div className="container education__container">
+
         <VerticalTimeline>
           {EducationList.map((item, id) => {
             return (
-              <VerticalTimelineElement key={id}
+                
+              <VerticalTimelineElement
+                key={id}
                 className="vertical-timeline-element--work"
                 contentStyle={{
-                  background: "rgb(33, 150, 243)",
-                  color: "#fff",
+                  background: "#51557E",
+                  color: "#F0EBE3",
                 }}
                 contentArrowStyle={{
                   borderRight: "7px solid  rgb(33, 150, 243)",
                 }}
                 date={item.duration}
-                iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-              >
-                <h3 className="vertical-timeline-element-title">
+                iconStyle={{ background: "#51557E", color: "#fff" }}           
+              >         
+                <h3 className="vertical-timeline-element-title"  >
                   {item.school}
                 </h3>
+                <h4 className="vertical-timeline-element-subtitle">{item.where}</h4>
                 <p>{item.course}</p>
-                {/* <div className="education-wrapper" key={id}>
-                  <div className="edu__wrapper">
-                    <h3 className="edu-school">{item.school} </h3>
-                    <div className="edu__course-year">
-                      <h3 className="edu-course">{item.course}</h3>
-                      <small className="edu-year">{item.duration}</small>
-                    </div>
-                  </div>
-                </div> */}
               </VerticalTimelineElement>
             );
           })}
         </VerticalTimeline>
-      </div>
+   
     </section>
   );
 };

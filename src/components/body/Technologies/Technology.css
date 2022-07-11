@@ -6,6 +6,12 @@
   gap:2rem;
 }
 
+.experience__details > .icons-img {
+    width: 40px;
+    margin: 0 auto;
+  }
+
+  
 .skills__container > div {
   padding: 2.4rem 5rem;
   border-radius: 2rem;
@@ -30,10 +36,6 @@
   row-gap: 2rem;
 }
 
-.experience__details > .icons-img {
-  width: 40px;
-  margin: 0 auto;
-}
 
 .experience__type {
   justify-content: center;

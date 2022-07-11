@@ -3,29 +3,43 @@ import React from "react";
 import { propTypes } from "react-bootstrap/esm/Image";
 import { CgCardSpades } from "react-icons/cg";
 import { IoFastFoodOutline } from "react-icons/io5";
+import {RiFootprintFill} from "react-icons/ri"
+
+import { Card, Button} from "react-bootstrap";
+import me from "../../../images/me.jpg"
 
 import "./Project.css";
+import { Carousel } from "bootstrap";
 const Projects = () => {
   const ProjectList = [
     {
       id: 1,
-      title: "Food Order Modal Page",
+      title: "To-do List",
       about: "Modal Section of a Frontend",
       objective:
-        "Diving deeper into React Hooks, Passing of Props and Components",
-      tags: ["ReactJS"],
-      github: "",
+        "Leveraging MERN Stacks and Backend APIs. Sandbox to be built ontop for future development",
+
+      tags: ["MongoDB","ExpressJS","React","NodeJS"],
+      github: "https://github.com/yaohong6782/First-Todo-MERN",
       image: <IoFastFoodOutline />,
     },
     {
       id: 2,
       title: "Console Black Jack Game",
       about: "Generic BlackJack Console Game",
-      objective: "Implement Object-Oriented Programming and Win the Dealer!",
+      objective: "Back to fundamentals of Object-Oriented Programming",
       tags: ["Java", "OOP"],
       github: "https://github.com/yaohong6782/Blackjack",
       image: <CgCardSpades />,
     },
+    {
+        id:3,
+        title:"Desktop Application - TraceUnited",
+        about:"User tracking and alert system",
+        objective:"SDLC and Boundary-Controller-Entity architecture",
+        tags:["Java", "MSSQL"],
+        image:<RiFootprintFill/>
+    }
   ];
   return (
     <section id="projects" className="section__projects">
