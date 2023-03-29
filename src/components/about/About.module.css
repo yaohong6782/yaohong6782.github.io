@@ -1,0 +1,84 @@
+.wrapper {
+  height: 60vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.notBold {
+  font-size: 150%;
+  font-weight: 500;
+}
+
+.bold {
+  font-weight: 700;
+  font-size: 200%;
+}
+
+h4 {
+  font-weight: 500;
+}
+
+.ownPhoto {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.imageWrapper {
+  margin-left: 150px;
+}
+
+h4 {
+  font-size: 200%;
+}
+
+.description {
+  padding-bottom: 5px;
+  font-weight: 400;
+}
+
+.iconLinks {
+  cursor: pointer;
+}
+
+.icon {
+  margin-right: 8px;
+}
+
+@media only screen and (max-width: 768px) {
+  .wrapper {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .ownPhoto {
+    height: 100px;
+    width: 100px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .wrapper {
+    justify-content: space-between;
+
+    align-items: center;
+  }
+  .ownPhoto {
+    height: 150px;
+    width: 150px;
+  }
+}
+
+@media only screen and (max-width: 362px) {
+  .wrapper {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .ownPhoto {
+    height: 50px;
+    width: 50px;
+  }
+}

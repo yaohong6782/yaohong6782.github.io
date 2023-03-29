@@ -1,0 +1,45 @@
+.title {
+  display: flex;
+}
+
+.title span {
+  background-color: lightgrey;
+  border-radius: 15px;
+  padding: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container {
+  text-align: center;
+  margin-bottom: 2rem;
+  padding-right: 5px;
+  justify-content: center;
+  align-items: center;
+  margin-right: 2rem;
+}
+
+.type {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-weight: 500;
+}
+
+.icon {
+  width: 40px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.credits a{
+  color: grey;
+  font-weight: 300;
+}
+

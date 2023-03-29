@@ -1,0 +1,38 @@
+.gridContainer {
+    border:1px solid;
+    border-radius:18px;
+    margin-left:4px;
+    box-shadow:1px 2px;
+}
+
+.titleContainer {
+    height:42px;
+    display: flex;
+    font-weight: 600;
+    /* justify-content: center; */
+    width:300px;
+
+}
+
+.tagsContainer {
+    display:flex;
+}
+
+.tag {
+    padding-right:4px;
+    color:teal
+}
+
+.aboutContainer {
+    padding-top:4px;
+}
+.imageContainer {
+    display:flex;
+    justify-content: center;
+    width:100%;
+}
+
+.githubWrapper{
+    display:inline-block;
+    margin-right:6px;
+}
