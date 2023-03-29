@@ -34,7 +34,7 @@ const Experience = () => {
       objective: [
         "Tech Refresh - Upgrading of Client's existing business logic to a newer and maintainable technology framework",
         "Worked mainly on Front-End components for reusability",
-        ""
+        
       ],
       department: "",
       role: "Software Engineer",
