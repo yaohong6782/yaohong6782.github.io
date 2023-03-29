@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.68502601.css",
-    "main.js": "/static/js/main.241a668c.js",
+    "main.js": "/static/js/main.fff885d3.js",
     "static/media/me.jpg": "/static/media/me.e1c06e502ab43689bb30.jpg",
     "static/media/reddit-news-img.png": "/static/media/reddit-news-img.1b28f9a6fe80e41871f2.png",
     "static/media/unsorted.png": "/static/media/unsorted.4b543821079243998c18.png",
@@ -10,10 +10,10 @@
     "static/media/todo-img.jpg": "/static/media/todo-img.ce9cf65a6e5d7afaba0c.jpg",
     "index.html": "/index.html",
     "main.68502601.css.map": "/static/css/main.68502601.css.map",
-    "main.241a668c.js.map": "/static/js/main.241a668c.js.map"
+    "main.fff885d3.js.map": "/static/js/main.fff885d3.js.map"
   },
   "entrypoints": [
     "static/css/main.68502601.css",
-    "static/js/main.241a668c.js"
+    "static/js/main.fff885d3.js"
   ]
 }
